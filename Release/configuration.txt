@@ -1,0 +1,17 @@
+localhost
+root
+101264
+jimpar@algo.gr
+rxa@algo.gr
+192.168.2.251
+192.168.2.254
+5038
+SIP/15
+algo_DLPN_Internal
+
+admin
+admin
+3306
+asterisk
+asterisk
+cdr
