@@ -495,7 +495,7 @@ void MainWindow::change_graph(int i)
 
     case 2:
     {
-        query.exec("select min(year(start_time)) from tasks");
+        query.exec("select max(year(start_time))-2 from tasks");
         query.next();
         QVariant min_year=query.value(0);
         query.exec("select max(year(start_time)) from tasks");
